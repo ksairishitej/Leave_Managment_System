@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Leave Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application for managing employee leave requests efficiently. The system allows employees to apply for leaves and managers/admins to review, approve, or reject those requests.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User and Admin Login
+- Apply for Leaves (Casual, Sick, etc.)
+- Admin Approval/Rejection
+- Leave Status Tracking<img width="1797" height="816" alt="Image" src="https://github.com/user-attachments/assets/1a136efc-20bf-4a5a-bea5-dab442c57132" />
+- Authentication with JWT
+- Dashboard for users and admins
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Frontend:**
+- React.js
+- Bootstrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
 
-### `npm test`
+**Others:**
+- JSON Web Token (JWT) for authentication
+- RESTful APIs
+- Axios for HTTP requests
+- React Router for navigation
+<img width="1919" height="863" alt="Image" src="https://github.com/user-attachments/assets/dbdb32e5-c8ab-4908-9b73-b900e1f56745" />
+<img width="1867" height="804" alt="Image" src="https://github.com/user-attachments/assets/37800067-eeb9-4208-916f-9d769483c00b" />
+<img width="1797" height="816" alt="Image" src="https://github.com/user-attachments/assets/1a136efc-20bf-4a5a-bea5-dab442c57132" />
+<img width="1416" height="806" alt="Image" src="https://github.com/user-attachments/assets/09c007d8-64b7-436e-9441-269fd45f0eb3" />
+<img width="1493" height="868" alt="Image" src="https://github.com/user-attachments/assets/2785b298-7bc2-4bd4-8426-be697b8251af" />
+<img width="1593" height="646" alt="Image" src="https://github.com/user-attachments/assets/4e13d166-d802-43a6-9f81-7ea56c1afadf" />
+<img width="1593" height="646" alt="Image" src="https://github.com/user-attachments/assets/4092f799-f0d4-4a57-8b91-24fc715eb214" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
